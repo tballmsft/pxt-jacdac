@@ -27,8 +27,7 @@ namespace jacdac {
             return !!s.getNumber(NumberFormat.UInt8LE, 0);
         }
 
-        handleCustomCommand(pkt: JDPacket)
-        {
+        handleCustomCommand(pkt: JDPacket) {
             const size = pkt.size;
 
             // buttons may pack one or more events into a packet.
