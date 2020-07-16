@@ -37,6 +37,7 @@ namespace jacdac {
                     while (i < size) {
                         const eid = pkt.data.getNumber(NumberFormat.UInt16LE, i)
                         control.raiseEvent(this.eventId, eid);
+                        this._lastState = eid
                         i += 2
                     }
                     break
