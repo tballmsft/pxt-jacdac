@@ -656,7 +656,7 @@ namespace jacdac {
     }
 
     export function routePacket(pkt: JDPacket) {
-        // log("route: " + pkt.toString())
+         log("route: " + pkt.toString())
         const devId = pkt.device_identifier
         const multiCommandClass = pkt.multicommand_class
 
@@ -743,7 +743,7 @@ namespace jacdac {
                     ? c.serviceClass == service_class
                     : c.serviceNumber == pkt.service_number)
             if (client) {
-                // log(`handle pkt at ${client.name} rep=${pkt.service_command}`)
+                 log(`handle pkt at ${client.name} rep=${pkt.service_command}`)
                 client.currentDevice = dev
                 client.handlePacketOuter(pkt)
             }
