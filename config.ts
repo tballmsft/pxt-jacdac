@@ -225,7 +225,9 @@ const enum JDButtonEvent {
     //% block="up"
     Up = DAL.DEVICE_BUTTON_EVT_UP,
     //% block="down"
-    Down = DAL.DEVICE_BUTTON_EVT_DOWN
+    Down = DAL.DEVICE_BUTTON_EVT_DOWN,
+    //% block="hold"
+    Hold = DAL.DEVICE_BUTTON_EVT_HOLD
 }
 
 const enum JDSwitchDirection {
