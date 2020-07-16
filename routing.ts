@@ -269,6 +269,7 @@ namespace jacdac {
         }
 
         handlePacketOuter(pkt: JDPacket) {
+            log(`handle packet sn: ${pkt.service_number} cmd: ${pkt.service_command}`);
             if (pkt.service_command == CMD_ADVERTISEMENT_DATA)
                 this.advertisementData = pkt.data
 
@@ -345,6 +346,7 @@ namespace jacdac {
         }
 
         protected raiseEvent(value: number, argument: number) {
+            log(`raising event: ${value}`);
             control.raiseEvent(this.eventId, value)
             if (this.handlers) {
                 const h = this.handlers[value + ""]
