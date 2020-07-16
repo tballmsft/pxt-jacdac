@@ -27,26 +27,6 @@ namespace jacdac {
             return !!s.getNumber(NumberFormat.UInt8LE, 0);
         }
 
-        handleCustomCommand(pkt: JDPacket) {
-            const size = pkt.size;
-
-            // buttons may pack one or more events into a packet.
-            switch (pkt.service_command) {
-                case CMD_EVENT: {
-                    let i = 0;
-                    while (i < size) {
-                        const eid = pkt.data.getNumber(NumberFormat.UInt16LE, i)
-                        control.raiseEvent(this.eventId, eid);
-                        i += 2
-                    }
-                    this._lastState = pkt.data
-                    break
-                }
-                default:
-                    break
-            }
-        }
-
         /**
          * Runs code when an event happens on the sensor
          * @param gesture
