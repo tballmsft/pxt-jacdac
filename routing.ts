@@ -422,6 +422,7 @@ namespace jacdac {
         }
 
         get isConnected() {
+            log(`connected: ${this.clients}`)
             return this.clients != null
         }
 
