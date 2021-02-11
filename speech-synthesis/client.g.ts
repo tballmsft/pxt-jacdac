@@ -2,7 +2,7 @@ namespace modules {
     //% fixedInstances
     export class SpeechSynthesisClient extends jacdac.Client {
         constructor(role: string) {
-            super(jacdac.SRV_SPEECHSYNTHESIS, role);
+            super(jacdac.SRV_SPEECH_SYNTHESIS, role);
         }
     
             

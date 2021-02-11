@@ -2,7 +2,7 @@ namespace modules {
     //% fixedInstances
     export class RealTimeClockClient extends jacdac.SensorClient<[number,number,number,number,number,number,number]> {
         constructor(role: string) {
-            super(jacdac.SRV_REALTIMECLOCK, role, "u16 u8 u8 u8 u8 u8 u8");
+            super(jacdac.SRV_REAL_TIME_CLOCK, role, "u16 u8 u8 u8 u8 u8 u8");
         }
     
         /**

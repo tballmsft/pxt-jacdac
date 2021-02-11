@@ -2,7 +2,7 @@ namespace modules {
     //% fixedInstances
     export class MatrixKeypadClient extends jacdac.SensorClient<[number[]]> {
         constructor(role: string) {
-            super(jacdac.SRV_MATRIXKEYPAD, role, "r: u8");
+            super(jacdac.SRV_MATRIX_KEYPAD, role, "r: u8");
         }
     
         /**

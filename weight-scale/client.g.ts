@@ -2,7 +2,7 @@ namespace modules {
     //% fixedInstances
     export class WeightScaleClient extends jacdac.SensorClient<[number]> {
         constructor(role: string) {
-            super(jacdac.SRV_WEIGHTSCALE, role, "u16.16");
+            super(jacdac.SRV_WEIGHT_SCALE, role, "u16.16");
         }
     
         /**

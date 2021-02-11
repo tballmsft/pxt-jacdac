@@ -2,7 +2,7 @@ namespace modules {
     //% fixedInstances
     export class ArcadeGamepadClient extends jacdac.SensorClient<[([ArcadeGamepadButton, number])[]]> {
         constructor(role: string) {
-            super(jacdac.SRV_ARCADEGAMEPAD, role, "r: u8 u0.8");
+            super(jacdac.SRV_ARCADE_GAMEPAD, role, "r: u8 u0.8");
         }
     
         /**

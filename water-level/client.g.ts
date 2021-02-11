@@ -2,7 +2,7 @@ namespace modules {
     //% fixedInstances
     export class WaterLevelClient extends jacdac.SensorClient<[number]> {
         constructor(role: string) {
-            super(jacdac.SRV_WATERLEVEL, role, "u0.16");
+            super(jacdac.SRV_WATER_LEVEL, role, "u0.16");
         }
     
         /**

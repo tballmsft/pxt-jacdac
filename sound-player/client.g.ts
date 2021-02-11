@@ -2,7 +2,7 @@ namespace modules {
     //% fixedInstances
     export class SoundPlayerClient extends jacdac.Client {
         constructor(role: string) {
-            super(jacdac.SRV_SOUNDPLAYER, role);
+            super(jacdac.SRV_SOUND_PLAYER, role);
         }
     
             

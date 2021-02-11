@@ -2,7 +2,7 @@ namespace modules {
     //% fixedInstances
     export class RotaryEncoderClient extends jacdac.SensorClient<[number]> {
         constructor(role: string) {
-            super(jacdac.SRV_ROTARYENCODER, role, "i32");
+            super(jacdac.SRV_ROTARY_ENCODER, role, "i32");
         }
     
         /**

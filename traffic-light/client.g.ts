@@ -2,7 +2,7 @@ namespace modules {
     //% fixedInstances
     export class TrafficLightClient extends jacdac.Client {
         constructor(role: string) {
-            super(jacdac.SRV_TRAFFICLIGHT, role);
+            super(jacdac.SRV_TRAFFIC_LIGHT, role);
         }
     
             

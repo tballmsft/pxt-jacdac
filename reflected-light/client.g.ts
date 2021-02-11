@@ -2,7 +2,7 @@ namespace modules {
     //% fixedInstances
     export class ReflectedLightClient extends jacdac.SensorClient<[number]> {
         constructor(role: string) {
-            super(jacdac.SRV_REFLECTEDLIGHT, role, "u0.16");
+            super(jacdac.SRV_REFLECTED_LIGHT, role, "u0.16");
         }
     
         /**

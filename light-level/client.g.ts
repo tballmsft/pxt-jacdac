@@ -2,7 +2,7 @@ namespace modules {
     //% fixedInstances
     export class LightLevelClient extends jacdac.SensorClient<[number]> {
         constructor(role: string) {
-            super(jacdac.SRV_LIGHTLEVEL, role, "u0.16");
+            super(jacdac.SRV_LIGHT_LEVEL, role, "u0.16");
         }
     
         /**

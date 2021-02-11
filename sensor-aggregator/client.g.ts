@@ -2,7 +2,7 @@ namespace modules {
     //% fixedInstances
     export class SensorAggregatorClient extends jacdac.SensorClient<[Buffer]> {
         constructor(role: string) {
-            super(jacdac.SRV_SENSORAGGREGATOR, role, "b");
+            super(jacdac.SRV_SENSOR_AGGREGATOR, role, "b");
         }
     
         /**

@@ -2,7 +2,7 @@ namespace modules {
     //% fixedInstances
     export class HeartRateClient extends jacdac.SensorClient<[number]> {
         constructor(role: string) {
-            super(jacdac.SRV_HEARTRATE, role, "u16.16");
+            super(jacdac.SRV_HEART_RATE, role, "u16.16");
         }
     
         /**

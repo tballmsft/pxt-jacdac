@@ -2,7 +2,7 @@ namespace modules {
     //% fixedInstances
     export class SensorClient extends jacdac.Client {
         constructor(role: string) {
-            super(jacdac.SRV__SENSOR, role);
+            super(jacdac.SRV_SENSOR, role);
         }
     
             

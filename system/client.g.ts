@@ -2,7 +2,7 @@ namespace modules {
     //% fixedInstances
     export class SystemClient extends jacdac.SensorClient<[number]> {
         constructor(role: string) {
-            super(jacdac.SRV__SYSTEM, role, "i32");
+            super(jacdac.SRV_SYSTEM, role, "i32");
         }
     
         /**

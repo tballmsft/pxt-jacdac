@@ -2,7 +2,7 @@ namespace modules {
     //% fixedInstances
     export class VibrationMotorClient extends jacdac.SensorClient<[number]> {
         constructor(role: string) {
-            super(jacdac.SRV_VIBRATION, role, "u0.8");
+            super(jacdac.SRV_VIBRATION_MOTOR, role, "u0.8");
         }
     
         /**

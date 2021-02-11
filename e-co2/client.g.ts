@@ -2,7 +2,7 @@ namespace modules {
     //% fixedInstances
     export class ECO2Client extends jacdac.SensorClient<[number]> {
         constructor(role: string) {
-            super(jacdac.SRV_ECO2, role, "u22.10");
+            super(jacdac.SRV_E_CO2, role, "u22.10");
         }
     
         /**

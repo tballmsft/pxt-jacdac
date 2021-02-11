@@ -2,7 +2,7 @@ namespace modules {
     //% fixedInstances
     export class ProtoTestClient extends jacdac.Client {
         constructor(role: string) {
-            super(jacdac.SRV_PROTOTEST, role);
+            super(jacdac.SRV_PROTO_TEST, role);
         }
     
             

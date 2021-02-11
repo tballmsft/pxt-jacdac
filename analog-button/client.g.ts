@@ -2,7 +2,7 @@ namespace modules {
     //% fixedInstances
     export class AnalogButtonClient extends jacdac.SensorClient<[number]> {
         constructor(role: string) {
-            super(jacdac.SRV_ANALOGBUTTON, role, "u0.16");
+            super(jacdac.SRV_ANALOG_BUTTON, role, "u0.16");
         }
     
         /**

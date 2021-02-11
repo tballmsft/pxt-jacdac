@@ -2,7 +2,7 @@ namespace modules {
     //% fixedInstances
     export class RoleManagerClient extends jacdac.Client {
         constructor(role: string) {
-            super(jacdac.SRV_ROLEMANAGER, role);
+            super(jacdac.SRV_ROLE_MANAGER, role);
         }
     
             

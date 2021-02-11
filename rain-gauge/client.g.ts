@@ -2,7 +2,7 @@ namespace modules {
     //% fixedInstances
     export class RainGaugeClient extends jacdac.SensorClient<[number]> {
         constructor(role: string) {
-            super(jacdac.SRV_RAINGAUGE, role, "u16.16");
+            super(jacdac.SRV_RAIN_GAUGE, role, "u16.16");
         }
     
         /**

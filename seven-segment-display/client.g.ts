@@ -2,7 +2,7 @@ namespace modules {
     //% fixedInstances
     export class SevenSegmentDisplayClient extends jacdac.Client {
         constructor(role: string) {
-            super(jacdac.SRV_SEVENSEGMENTDISPLAY, role);
+            super(jacdac.SRV_SEVEN_SEGMENT_DISPLAY, role);
         }
     
             

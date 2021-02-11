@@ -2,7 +2,7 @@ namespace modules {
     //% fixedInstances
     export class ModelRunnerClient extends jacdac.SensorClient<[number[]]> {
         constructor(role: string) {
-            super(jacdac.SRV_MODELRUNNER, role, "r: f32");
+            super(jacdac.SRV_MODEL_RUNNER, role, "r: f32");
         }
     
         /**

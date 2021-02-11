@@ -2,7 +2,7 @@ namespace modules {
     //% fixedInstances
     export class BarcodeReaderClient extends jacdac.Client {
         constructor(role: string) {
-            super(jacdac.SRV_BARCODEREADER, role);
+            super(jacdac.SRV_BARCODE_READER, role);
         }
     
             

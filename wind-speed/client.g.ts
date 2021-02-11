@@ -2,7 +2,7 @@ namespace modules {
     //% fixedInstances
     export class WindSpeedClient extends jacdac.SensorClient<[number]> {
         constructor(role: string) {
-            super(jacdac.SRV_WINDSPEED, role, "u16.16");
+            super(jacdac.SRV_WIND_SPEED, role, "u16.16");
         }
     
         /**

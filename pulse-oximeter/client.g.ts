@@ -2,7 +2,7 @@ namespace modules {
     //% fixedInstances
     export class PulseOximeterClient extends jacdac.SensorClient<[number]> {
         constructor(role: string) {
-            super(jacdac.SRV_PULSEOXIMETER, role, "u8.8");
+            super(jacdac.SRV_PULSE_OXIMETER, role, "u8.8");
         }
     
         /**

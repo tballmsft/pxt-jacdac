@@ -2,7 +2,7 @@ namespace modules {
     //% fixedInstances
     export class MagnetoClient extends jacdac.SensorClient<[number,number,number]> {
         constructor(role: string) {
-            super(jacdac.SRV_MAGNETOMER, role, "i32 i32 i32");
+            super(jacdac.SRV_MAGNETO, role, "i32 i32 i32");
         }
     
         /**

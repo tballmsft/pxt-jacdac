@@ -2,7 +2,7 @@ namespace modules {
     //% fixedInstances
     export class IotHubClient extends jacdac.Client {
         constructor(role: string) {
-            super(jacdac.SRV_IOTHUB, role);
+            super(jacdac.SRV_IOT_HUB, role);
         }
     
             

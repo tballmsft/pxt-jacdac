@@ -2,7 +2,7 @@ namespace modules {
     //% fixedInstances
     export class SoilMoistureClient extends jacdac.SensorClient<[number]> {
         constructor(role: string) {
-            super(jacdac.SRV_SOILMOISTURE, role, "u0.16");
+            super(jacdac.SRV_SOIL_MOISTURE, role, "u0.16");
         }
     
         /**

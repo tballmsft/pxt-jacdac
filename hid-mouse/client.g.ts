@@ -2,7 +2,7 @@ namespace modules {
     //% fixedInstances
     export class HidMouseClient extends jacdac.Client {
         constructor(role: string) {
-            super(jacdac.SRV_HIDMOUSE, role);
+            super(jacdac.SRV_HID_MOUSE, role);
         }
     
             

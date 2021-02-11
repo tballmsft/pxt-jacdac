@@ -2,7 +2,7 @@ namespace modules {
     //% fixedInstances
     export class CharacterScreenClient extends jacdac.Client {
         constructor(role: string) {
-            super(jacdac.SRV_CHARACTERSCREEN, role);
+            super(jacdac.SRV_CHARACTER_SCREEN, role);
         }
     
             
