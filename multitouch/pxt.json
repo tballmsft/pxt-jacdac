@@ -1,19 +1,24 @@
 {
     "name": "jacdac-multitouch",
-    "version": "0.3.0",
-    "description": "MakeCode support for JACDAC Multi Touch service",
+    "version": "0.0.0",
+    "description": "A capacitive touch sensor with multiple inputs.",
+    "files": [
+        "constants.ts",
+        "client.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "arcade",
+        "microbit",
+        "maker"
+    ],
     "dependencies": {
         "core": "*",
         "jacdac": "github:microsoft/pxt-jacdac"
     },
-    "files": [
-        "constants.ts",
-        "client.ts"
-    ],
-    "supportedTargets": [
-        "arcade",
-        "maker",
-        "microbit"
-    ],
-    "preferredEditor": "tsprj"
+    "testDependencies": {
+        "nucleo-f411re": "*"
+    }
 }

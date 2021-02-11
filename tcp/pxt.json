@@ -1,18 +1,24 @@
 {
     "name": "jacdac-tcp",
-    "version": "0.3.0",
-    "description": "MakeCode support for JACDAC TCP service",
+    "version": "0.0.0",
+    "description": "Data transfer over TCP/IP and TLS stream sockets.",
     "files": [
         "constants.ts",
-        "client.ts"
+        "client.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
     ],
     "supportedTargets": [
         "arcade",
+        "microbit",
         "maker"
     ],
     "dependencies": {
         "core": "*",
-        "net": "*",
         "jacdac": "github:microsoft/pxt-jacdac"
+    },
+    "testDependencies": {
+        "nucleo-f411re": "*"
     }
 }

@@ -1,19 +1,24 @@
 {
-    "name": "jacdac-microphone",
-    "version": "0.3.0",
-    "description": "MakeCode support for JACDAC Microphone service",
+    "name": "jacdac-soundlevel",
+    "version": "0.0.0",
+    "description": "A sound level detector sensor, gives a relative indication of the sound level.",
+    "files": [
+        "constants.ts",
+        "client.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "arcade",
+        "microbit",
+        "maker"
+    ],
     "dependencies": {
         "core": "*",
         "jacdac": "github:microsoft/pxt-jacdac"
     },
-    "files": [
-        "constants.ts",
-        "client.ts"
-    ],
-    "supportedTargets": [
-        "arcade",
-        "maker",
-        "microbit"
-    ],
-    "preferredEditor": "tsprj"
+    "testDependencies": {
+        "nucleo-f411re": "*"
+    }
 }

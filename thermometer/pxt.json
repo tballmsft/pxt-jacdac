@@ -1,26 +1,24 @@
 {
     "name": "jacdac-thermometer",
-    "version": "0.3.0",
-    "description": "MakeCode support for JACDAC Thermometer service",
-    "dependencies": {
-        "core": "*",
-        "jacdac": "github:microsoft/pxt-jacdac"
-    },
+    "version": "0.0.0",
+    "description": "A thermometer measuring outside or inside environment.",
     "files": [
         "constants.ts",
-        "client.ts"
+        "client.g.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
-    "testDependencies": {
-        "net": "*",
-        "nucleo-f411re": "*"
-    },
     "supportedTargets": [
         "arcade",
-        "maker",
-        "microbit"
+        "microbit",
+        "maker"
     ],
-    "preferredEditor": "tsprj"
+    "dependencies": {
+        "core": "*",
+        "jacdac": "github:microsoft/pxt-jacdac"
+    },
+    "testDependencies": {
+        "nucleo-f411re": "*"
+    }
 }

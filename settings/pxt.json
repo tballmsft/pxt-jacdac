@@ -1,18 +1,24 @@
 {
     "name": "jacdac-settings",
-    "version": "0.3.0",
-    "description": "MakeCode support for JACDAC Settings service",
+    "version": "0.0.0",
+    "description": "Non-volatile key-value storage interface for storing settings.",
+    "files": [
+        "constants.ts",
+        "client.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "arcade",
+        "microbit",
+        "maker"
+    ],
     "dependencies": {
         "core": "*",
         "jacdac": "github:microsoft/pxt-jacdac"
     },
-    "files": [
-        "constants.ts"
-    ],
-    "supportedTargets": [
-        "arcade",
-        "maker",
-        "microbit"
-    ],
-    "preferredEditor": "tsprj"
+    "testDependencies": {
+        "nucleo-f411re": "*"
+    }
 }
