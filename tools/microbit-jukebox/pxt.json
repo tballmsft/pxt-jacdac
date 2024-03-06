@@ -6,7 +6,7 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "jacdac": "github:tballmsft/pxt-jacdac",
+        "jacdac": "github:tballmsft/pxt-jacdac#v1.9.27",
         "jacdac-accelerometer": "github:tballmsft/pxt-jacdac/accelerometer",
         "jacdac-air-pressure": "github:tballmsft/pxt-jacdac/air-pressure",
         "jacdac-braille-display": "github:tballmsft/pxt-jacdac/braille-display",
