@@ -5,8 +5,8 @@
     "dependencies": {
         "core": "*",
         "accelerometer": "*",
-        "jacdac": "github:microsoft/pxt-jacdac",
-        "jacdac-accelerometer": "github:microsoft/pxt-jacdac/accelerometer"
+        "jacdac": "github:tballmsft/pxt-jacdac",
+        "jacdac-accelerometer": "github:tballmsft/pxt-jacdac/accelerometer"
     },
     "files": [
         "server.ts"

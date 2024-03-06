@@ -4,8 +4,8 @@
     "description": "MakeCode support for Jacdac Servo server",
     "dependencies": {
         "core": "*",
-        "jacdac": "github:microsoft/pxt-jacdac",
-        "jacdac-servo": "github:microsoft/pxt-jacdac/servo"
+        "jacdac": "github:tballmsft/pxt-jacdac",
+        "jacdac-servo": "github:tballmsft/pxt-jacdac/servo"
     },
     "files": [
         "server.microbit.ts"

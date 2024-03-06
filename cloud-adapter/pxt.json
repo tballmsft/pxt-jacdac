@@ -14,6 +14,6 @@
     ],
     "dependencies": {
         "core": "*",
-        "jacdac": "github:microsoft/pxt-jacdac"
+        "jacdac": "github:tballmsft/pxt-jacdac"
     }
 }
