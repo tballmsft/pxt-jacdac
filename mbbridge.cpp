@@ -57,6 +57,8 @@ extern "C" void TEMP_IRQHandler() {
 }
 
 static void logFrame(const uint8_t *data) {
+    return;
+    /*
     auto frame = (jd_frame_t *)(void *)data;
     target_disable_irq();
     if (buff->recvBuf[2] != 0xff) {
@@ -68,6 +70,7 @@ static void logFrame(const uint8_t *data) {
     }
     target_enable_irq();
     logq_poke();
+    */
 }
 
 static void logq_poke() {
@@ -88,6 +91,9 @@ static void logq_poke() {
 extern "C" uint32_t __StackTop;
 
 void mbbridge_init() {
+    pxt::logJDFrame = logFrame;
+    return
+    /*
     // microbit_panic_timeout(0);
 
     buff = (ExchangeBuffer *)app_alloc(sizeof(*buff));
@@ -103,6 +109,7 @@ void mbbridge_init() {
 
     // store the address to the top of the exchange buffer at the very bottom of the stack (which is otherwise unused)
     (&__StackTop)[-1] = (uint32_t)buff;
+    */
 }
 
 } // namespace jacdac
