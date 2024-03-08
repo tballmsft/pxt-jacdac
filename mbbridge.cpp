@@ -92,7 +92,6 @@ extern "C" uint32_t __StackTop;
 
 void mbbridge_init() {
     pxt::logJDFrame = logFrame;
-    return
     /*
     // microbit_panic_timeout(0);
 
